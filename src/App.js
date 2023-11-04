@@ -45,8 +45,8 @@ function App() {
         style={{
           height: 70,
           marginTop: 150,
-          marginLeft: 600,
-          marginRight: 600,
+          marginLeft: 550,
+          marginRight: 550,
         }}
       >
         <Card.Body style={{ backgroundColor: "skyblue" }}>
@@ -55,7 +55,7 @@ function App() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <CardGroup style={{ marginTop: 10, marginLeft: 600, marginRight: 600 }}>
+      <CardGroup style={{ marginTop: 10, marginLeft: 550, marginRight: 550 }}>
         <Card style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title>You are Logged in</Card.Title>
@@ -83,7 +83,7 @@ function App() {
           </Card.Footer>
         </Card>
       </CardGroup>
-      <Card style={{ height: 100, marginLeft: 600, marginRight: 600 }}>
+      <Card style={{ height: 100, marginLeft: 550, marginRight: 550 }}>
         <Card.Body>
           <Card.Text>Working time : {duration}</Card.Text>
         </Card.Body>
